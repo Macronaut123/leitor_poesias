@@ -7,6 +7,16 @@ section{
 	height: 771px;
 }
 
+.leitor_versao{
+	position: absolute;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 18px;
+	color: #FAFAFA; 
+	top: 89%;
+	left: 37%;
+}
+
 .poesia_titulo{
 	position: absolute;
 	font-family: "Courier New";
