@@ -1,0 +1,48 @@
+section{
+	overflow: hidden;
+	position: absolute;
+	background-color: #4BB1CF;
+	border-radius: 5px;
+	width: 784px;
+	height: 771px;
+}
+
+.poesia_titulo{
+	position: absolute;
+	font-family: "Courier New";
+	color: #FCF8E3;
+	left: 7%;
+	text-align: left;
+}
+
+.poesia_box{
+	position: absolute;
+	background-color: #003399;
+	border-radius: 10px;
+	overflow-y: auto;
+	font-weight: bold;
+	color: #FAFAFA;
+	font-family: Arial;
+	height: 604px;
+	width: 675px;
+	text-align: justify;
+	padding: 2%;
+	left: 5%;
+	top: 7%;
+}
+
+.botao{
+	top: 90%;
+	width: 50px;
+	height: 50px;
+	border: none;
+	position: absolute;
+	background-size: 50px 50px;
+	background-repeat: no-repeat;
+	background-color: #4BB1CF;
+	background-image:url("../img/red_rose.png");
+}
+
+.botao:active{opacity: 0.5; }
+.botao_direita{left: 88%;}
+.botao_esquerda{left: 6%;}
