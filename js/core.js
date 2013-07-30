@@ -7,7 +7,6 @@ $(document).ready(function(){
 	
 	$('.poesia_titulo').html(poesias_titulos[poesiaAtual]);
 	$('.poesia_box').html(poesias[poesiaAtual]);
-	
 })
 
 function mudarPoesia(direcao){
